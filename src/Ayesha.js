@@ -133,10 +133,10 @@ export default function Ayesha() {
                                     <p className='btn btn-outline-primary text-black' style={{ border: "1px solid black" }}>Check Availability</p>
                                 </div>
                                 <div className='mt-2'>
-                                    <span className='me-5 text-black'>From</span><span className='btn btn-outline-primary text-black' style={{ border: "1px solid black" }}>Date Time Picker</span>
+                                    <span className='me-5 text-black'>From</span><input type="text" className='btn btn-outline-primary text-black' style={{ border: "1px solid black" }} placeholder="Date Time Picker"/>
                                 </div>
                                 <div className='mt-2'>
-                                    <span className='me-5 text-black'>To </span>  <span className='btn btn-outline-primary text-black' style={{ border: "1px solid black" }}>Date Time Picker</span>
+                                    <span className='me-5 text-black'>To </span>  <input type="text" className='btn btn-outline-primary text-black' style={{ border: "1px solid black" }} placeholder="Date Time Picker"/>
                                 </div>
                                 <div className='mt-2'>
                                     <span className='me-5 text-black'>For </span>  <span className='btn btn-outline-primary text-black' style={{ border: "1px solid black" }}>15</span><span className='ms-5 text-black'>Minutes</span>
